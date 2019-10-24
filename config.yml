@@ -1,0 +1,312 @@
+AnvilLocation:
+  World: world
+  x: -9
+  y: 63
+  z: -75
+ValidMaterial:
+- DIAMOND_SWORD
+- IRON_SWORD
+Stats:
+  Level1:
+    DAMAGE: 3.0
+    CRITICAL_CHANCE: 2.0
+    HEALTH: 2.0
+    PENETRATION: 1.5
+    HIT_RATE: 2.5
+  Level2:
+    DAMAGE: 300.0
+    CRITICAL_CHANCE: 2.0
+    HEALTH: 2.0
+    PENETRATION: 1.5
+    HIT_RATE: 2.5
+  Level3:
+    DAMAGE: 3.0
+    CRITICAL_CHANCE: 2.0
+    HEALTH: 2.0
+    PENETRATION: 1.5
+    HIT_RATE: 2.5
+  Level4:
+    DAMAGE: 3.0
+    CRITICAL_CHANCE: 2.0
+    HEALTH: 2.0
+    PENETRATION: 1.5
+    HIT_RATE: 2.5
+  Level5:
+    DAMAGE: 300.0
+    CRITICAL_CHANCE: 2.0
+    HEALTH: 2.0
+    PENETRATION: 1.5
+    HIT_RATE: 2.5
+  Level6:
+    DAMAGE: 3.0
+    CRITICAL_CHANCE: 2.0
+    HEALTH: 2.0
+    PENETRATION: 1.5
+    HIT_RATE: 2.5
+  Level7:
+    DAMAGE: 3.0
+    CRITICAL_CHANCE: 2.0
+    HEALTH: 2.0
+    PENETRATION: 1.5
+    HIT_RATE: 2.5
+  Level8:
+    DAMAGE: 300.0
+    CRITICAL_CHANCE: 2.0
+    HEALTH: 2.0
+    PENETRATION: 1.5
+    HIT_RATE: 2.5
+  Level9:
+    DAMAGE: 3.0
+    CRITICAL_CHANCE: 2.0
+    HEALTH: 2.0
+    PENETRATION: 1.5
+    HIT_RATE: 2.5
+  Level10:
+    DAMAGE: 3.0
+    CRITICAL_CHANCE: 2.0
+    HEALTH: 2.0
+    PENETRATION: 1.5
+    HIT_RATE: 2.5
+  Level11:
+    DAMAGE: 3.0
+    CRITICAL_CHANCE: 2.0
+    HEALTH: 2.0
+    PENETRATION: 1.5
+    HIT_RATE: 2.5
+  Level12:
+    DAMAGE: 3.0
+    CRITICAL_CHANCE: 2.0
+    HEALTH: 2.0
+    PENETRATION: 1.5
+    HIT_RATE: 2.5
+UpgradeItem:
+  Stone1:
+    Type: FLINT
+    Name: '&f Đá Cường Hoá 1'
+    Lore:
+    - '&c con cac'
+    - '&c con cac'
+    Chance:
+      Level1: 25.0
+      Level2: 6.25
+      Level3: 1.5
+      Level4: 1.0
+      Level5: 0.0
+      Level6: 0.0
+      Level7: 0.0
+      Level8: 0.0
+      Level9: 0.0
+      Level10: 0.0
+      Level11: 0.0
+      Level12: 0.0
+  Stone2:
+    Type: IRON_INGOT
+    Name: '&f Đá Cường Hoá 2'
+    Lore:
+    - '&c con cac'
+    - '&c con cac'
+    Chance:
+      Level1: 100.0
+      Level2: 25.0
+      Level3: 6.5
+      Level4: 1.5
+      Level5: 1.0
+      Level6: 0.0
+      Level7: 0.0
+      Level8: 0.0
+      Level9: 0.0
+      Level10: 0.0
+      Level11: 0.0
+      Level12: 0.0
+  Stone3:
+    Type: GOLD_INGOT
+    Name: '&f Đá Cường Hoá 3'
+    Lore:
+    - '&c con cac'
+    - '&c con cac'
+    Chance:
+      Level1: 100.0
+      Level2: 100.0
+      Level3: 25.0
+      Level4: 6.5
+      Level5: 1.5
+      Level6: 1.0
+      Level7: 0.0
+      Level8: 0.0
+      Level9: 0.0
+      Level10: 0.0
+      Level11: 0.0
+      Level12: 0.0
+  Stone4:
+    Type: DIAMOND
+    Name: '&f Đá Cường Hoá 4'
+    Lore:
+    - '&c con cac'
+    - '&c con cac'
+    Chance:
+      Level1: 100.0
+      Level2: 100.0
+      Level3: 100.0
+      Level4: 25.0
+      Level5: 12.0
+      Level6: 6.5
+      Level7: 3.0
+      Level8: 1.5
+      Level9: 1.0
+      Level10: 0.0
+      Level11: 0.0
+      Level12: 0.0
+  Stone5:
+    Type: EMERALD
+    Name: '&f Đá Cường Hoá 5'
+    Lore:
+    - '&c con cac'
+    - '&c con cac'
+    Chance:
+      Level1: 100.0
+      Level2: 100.0
+      Level3: 100.0
+      Level4: 100.0
+      Level5: 65.0
+      Level6: 30.0
+      Level7: 15.0
+      Level8: 7.0
+      Level9: 3.0
+      Level10: 2.0
+      Level11: 1.0
+      Level12: 0.5
+  Protection:
+    Type: EMPTY_MAP
+    Name: '&c Bùa Ràng Buộc'
+    Lore:
+    - '&c con cac'
+    - '&e con cac'
+  Upchance:
+    Type: PAPER
+    Name: '&c Bùa Thăng Hoa'
+    Lore:
+    - '&4 con cac'
+    - '&4 con cac'
+UpgradeItemGui:
+  Title: '         &8[ &4&lGIAO DIỆN CƯỜNG HOÁ &8]'
+  # STONE 
+  Stone1:
+    Type: BARRIER
+    Name: '&8[&cTróng&8]&e Đá Cường Hoá'
+    Lore:
+    - '&c con cac'
+    - '&c con cac'
+  Stone2:
+    Type: BARRIER
+    Name: '&8[&cTróng&8]&e Đá Cường Hoá'
+    Lore:
+    - '&c con cac'
+    - '&c con cac'
+  Stone3:
+    Type: BARRIER
+    Name: '&8[&cTróng&8]&e Đá Cường Hoá'
+    Lore:
+    - '&c con cac'
+    - '&c con cac'
+  Stone4:
+    Type: BARRIER
+    Name: '&8[&cTróng&8]&e Đá Cường Hoá'
+    Lore:
+    - '&c con cac'
+    - '&c con cac'
+  Stone5:
+    Type: BARRIER
+    Name: '&8[&cTróng&8]&e Đá Cường Hoá'
+    Lore:
+    - '&c con cac'
+    - '&c con cac'
+# STONE 
+  Upchance:
+    Type: BARRIER
+    Name: '&c Bùa Thăng Hoa'
+    Lore:
+    - '&4 con cac'
+    - '&4 con cac'
+  Protection:
+    Type: BARRIER
+    Name: '&a Bùa An Toàn'
+    Lore:
+    - '&c Chưa có'
+    - '&c c '
+  Help:
+    Type: BOOK_AND_QUILL
+    Name: '&a Hướng Dẫn Up'
+    Lore:
+    - ' &ecc'
+    - ' &ecc'
+  Upgrade:
+    Type: ANVIL
+    Name: '&8 [&a Ấn Cường Hoá Ngay &8]'
+    Lore:
+    - ''
+    - ' &f Thành Công&e %chance%%'
+    - ''
+  PreProcess:
+    Type: STAINED_GLASS_PANE
+    Data: 11
+    Name: '&a '
+    Slots:
+    - 4
+    - 5
+    - 14
+    - 23
+    - 22
+    - 21
+    - 12
+    - 3
+    - 4
+  Processing:
+    Type: STAINED_GLASS_PANE
+    Data: 5
+    Name: '&a '
+  Fail:
+    Type: STAINED_GLASS_PANE
+    Data: 14
+    Name: '&a '
+  Border:
+    Slots:
+    - 0
+    - 1
+    - 2
+    - 6
+    - 7
+    - 8
+    - 9
+    - 17
+    - 18
+    - 26
+    - 27
+    - 28
+    - 29
+    - 30
+    - 32
+    - 33
+    - 34
+    - 35
+    - 36
+    - 44
+    - 45
+    - 46
+    - 47
+    - 48
+    - 50
+    - 51
+    - 52
+    - 53
+  Fill:
+    Slots:
+    - 10
+    - 19
+    - 20
+    - 16
+    - 25
+    - 24
+    - 43
+    - 37
+
+Messages:
